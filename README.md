@@ -3,7 +3,7 @@ Quiz 4
 
 Nama Anggota Kelompok:
 
-Fadel Muhammad
-Muhamad Lutfi Arrasyid
-Khoirul Anam
-Cut Naila Fadia Fiadharma
+1. Fadel Muhammad
+2. Muhamad Lutfi Arrasyid
+3. Khoirul Anam
+4. Cut Naila Fadia Fiadharma
