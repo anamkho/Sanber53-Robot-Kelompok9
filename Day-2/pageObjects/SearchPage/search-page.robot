@@ -5,8 +5,8 @@ Variables                                search-locator.yaml
 *** Keywords ***
 
 Click Home Button search
-    Wait Until Element Is Visible        locator=${se_btn}
-    Click Element                        locator=${se_btn}
+    Wait Until Element Is Visible        locator=${search_btn}
+    Click Element                        locator=${search_btn}
 
 Input Flight Number
     Wait Until Element Is Visible        locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
