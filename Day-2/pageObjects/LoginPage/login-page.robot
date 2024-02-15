@@ -5,7 +5,7 @@ Variables                              login-locator.yaml
 *** Keywords ***
 Input Username
     Wait Until Element Is Visible      locator=${username_input}
-    Input Text                         locator=${username_input}    text=support@ngendigita.com
+    Input Text                         locator=${username_input}    text=support@ngendigital.com
 
 Input Password
     Input Text                         locator=${password_input}    text=abc123
