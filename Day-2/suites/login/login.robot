@@ -1,13 +1,13 @@
 *** Settings ***
-Resource                               ../pageObjects/HomePage/home-page.robot
-Resource                               ../pageObjects/LoginPage/login-page.robot
-Resource                               ../pageObjects/base/base.robot
+Resource             ../../pageObjects/HomePage/home-page.robot
+Resource             ../../pageObjects/LoginPage/login-page.robot
+Resource             ../../pageObjects/base/base.robot
 
-Test Setup                             Open Flight Application
-Test Teardown                          Close Flight Application
+Test Setup        Open Flight Application
+Test Teardown     Close Flight Application
 
 *** Test Cases ***
-Login with Invalid Data
+Login with valid Data
     home-page.Click Sign In Button On Home Page
     login-page.Input Username
     login-page.Input Password

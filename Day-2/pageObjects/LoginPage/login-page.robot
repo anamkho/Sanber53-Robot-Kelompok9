@@ -13,5 +13,5 @@ Input Password
 Click Sign In Button On Login Page
     Click Element                      locator=${signin_button}
 
-Verify User Is Fail To Logged In
-    Wait Until Page Contains           ${text_view}
+Verify User Success To Logged In
+    Wait Until Element Is Visible           ${text_view}
