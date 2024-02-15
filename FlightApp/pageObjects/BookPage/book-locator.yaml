@@ -29,5 +29,5 @@ bussines: '//android.widget.TextView[@resource-id="android:id/text1" and @text="
 #date
 date-picker: '//android.widget.TextView[@resource-id="android:id/date_picker_header_year"]'
 year-picker: '//android.widget.TextView[@resource-id="android:id/text1" and @text="2024"]'
-01-aug: '//android.view.View[@content-desc="01 Agustus 2024"]'
-31-aug: '//android.view.View[@content-desc="31 Agustus 2024"]'
+04-aug: '//android.view.View[@content-desc="04 August 2024"]'
+17-aug: '//android.view.View[@content-desc="17 August 2024"]'
