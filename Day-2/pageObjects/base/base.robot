@@ -7,7 +7,6 @@ ${PLATFORM_NAME}           Android
 ${PLATFORM_VERSION}        12.0
 ${DEVICE_NAME}             emulator-5554
 
-
 *** Keywords ***
 Open Flight Application
     Open Application       remote_url=${REMOTE_URL}   
