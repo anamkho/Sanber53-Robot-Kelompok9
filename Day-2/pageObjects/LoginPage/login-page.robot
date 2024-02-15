@@ -5,13 +5,13 @@ Variables                              login-locator.yaml
 *** Keywords ***
 Input Username
     Wait Until Element Is Visible      locator=${username_input}
-    Input Text                         locator=${username_input}    text=TestUser
+    Input Text                         locator=${username_input}    text=support@ngendigital.com
 
 Input Password
-    Input Text                         locator=${password_input}    text=TestPassword
+    Input Text                         locator=${password_input}    text=abc123
 
 Click Sign In Button On Login Page
-    Click Element                      locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+    Click Element                      locator=${signin_button}
 
 Verify User Is Fail To Logged In
-    Wait Until Page Contains           text=Invalid username/password
+    Wait Until Page Contains           ${text_view}
